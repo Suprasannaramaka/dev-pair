@@ -1,0 +1,14 @@
+import { createClient } from '@supabase/supabase-js';
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+// Diagnostic check
+if (!supabaseUrl || !supabaseAnonKey) {
+  console.error('❌ Missing Supabase Environment Variables!');
+  console.log('URL:', supabaseUrl); // This will show 'undefined' if missing
+}
+
+export const supabase = createClient(
+  supabaseUrl || '', 
+  supabaseAnonKey || ''
+);
