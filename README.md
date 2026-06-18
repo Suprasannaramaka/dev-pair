@@ -14,7 +14,8 @@ The platform provides:
 The goal is to create a seamless remote learning experience where mentors and students can communicate, write code together, and collaborate in real time.
 {/*Core-View */}
 ### Features & Design Preview :-
-🎨 **Figma Design Link:** You can explore the interactive [Dev-Pair Design System & Prototypes on Figma](https://www.figma.com/design/0VKhkN0Uzq1ywFZCv9uxwU/Dev-Pair?node-id=1-18&t=OECu76ppcf71ACjs-0);
+🎨 **Figma Design Link:** You can explore the interactive [Dev-Pair Design System & Prototypes on Figma]
+(https://www.figma.com/design/0VKhkN0Uzq1ywFZCv9uxwU/Dev-Pair?node-id=1-18&t=OECu76ppcf71ACjs-0)
 
 ### Authentication & Authorization :-
 * Secure authentication using Supabase Auth
