@@ -13,14 +13,16 @@ The platform provides:
 
 The goal is to create a seamless remote learning experience where mentors and students can communicate, write code together, and collaborate in real time.
 {/*Core-View */}
+### Features & Design Preview :-
+🎨 **Figma Design Link:** You can explore the interactive [Dev-Pair Design System & Prototypes on Figma](https://www.figma.com/design/0VKhkN0Uzq1ywFZCv9uxwU/Dev-Pair?node-id=1-18&t=OECu76ppcf71ACjs-0);
 
-### Authentication & Authorization
+### Authentication & Authorization :-
 * Secure authentication using Supabase Auth
 * Protected routes
 * Session management
 * Role-based access (Mentor / Student)
 
-### Session Management
+### Session Management:-
 Mentors can:
 * Create mentorship sessions
 * Generate private invite links
@@ -30,7 +32,7 @@ Students can:
 * Join sessions using invite links
 * Access shared workspace
 
-### Real-Time Collaborative Editor
+### Real-Time Collaborative Editor :-
 {/* */}
 * Monaco Editor integration
 * Language selection
@@ -38,20 +40,20 @@ Students can:
 * Shared coding environment
 * Low-latency updates using WebSockets
 
-### Real-Time Chat
+### Real-Time Chat :-
 * Session-specific messaging
 * Message persistence
 * Timestamps
 * System-generated events
 
-### Video Communication
+### Video Communication :-
 
 * Peer-to-peer video calls using WebRTC
 * Camera toggle
 * Microphone toggle
 * Low-latency communication
 
-## Tech Stack: 
+## Tech Stack:-
 ### Frontend:
 * Next.js 16
 * React 19
@@ -64,15 +66,15 @@ Students can:
 * Express.js
 * Socket.io
 
-### Real-Time Technologies:
+### Real-Time Technologies:-
 * Socket.io
 * WebRTC
 
-### Database:
+### Database:-
 * PostgreSQL
 * Supabase
 
-### Deployment:
+### Deployment:-
 Frontend:
 * Vercel
 
@@ -81,7 +83,7 @@ Backend:
 
 ---
 
-## System Architecture: 
+## System Architecture:-
 
                                     User Browser
                                        ↓
@@ -99,9 +101,9 @@ Backend:
 
 ---
 
-## Database Schema:
+## Database Schema:-
 
-### profiles:
+### profiles:-
 id
 email
 role
